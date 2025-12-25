@@ -81,8 +81,8 @@
 
         .love-message {
             font-size: 2.5rem;
-            font-weight: bold;
-            background: linear-gradient(45deg, gold, silver, gold);
+            font-weight: 900;
+            background: linear-gradient(45deg, #ff1744, #ff6b9d, #ffc3d8, #ff6b9d, #ff1744);
             background-size: 200% auto;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -90,6 +90,8 @@
             margin-top: 20px;
             z-index: 10;
             animation: shimmer 3s linear infinite, fadeIn 2s ease-in;
+            text-shadow: 2px 2px 4px rgba(255, 23, 68, 0.3);
+            letter-spacing: 2px;
         }
 
         @keyframes shimmer {
@@ -475,7 +477,7 @@
     <div id="welcomePage">
         <h1>Welcome Princess 👑</h1>
         <p class="love-message">Happy Birthday My Love<br>My Soul</p>
-        <button class="clickButton" onclick="showBirthdayPage()">Click Here 🎵</button>
+        <button class="clickButton" onclick="showBirthdayPage()">Click Here 💖</button>
         
         <!-- Floating hearts and flowers -->
         <div class="heart" style="top: 10%; left: 10%; animation-delay: 0s;">❤️</div>
